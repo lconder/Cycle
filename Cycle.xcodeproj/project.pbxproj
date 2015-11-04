@@ -15,6 +15,9 @@
 		04390C511BC86716005D0BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04390C4F1BC86716005D0BCA /* LaunchScreen.storyboard */; };
 		04390C5C1BC86716005D0BCA /* CycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04390C5B1BC86716005D0BCA /* CycleTests.swift */; };
 		04390C671BC86716005D0BCA /* CycleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04390C661BC86716005D0BCA /* CycleUITests.swift */; };
+		04EBAC3C1BC8DD1C00CBB578 /* PlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBAC3B1BC8DD1C00CBB578 /* PlayController.swift */; settings = {ASSET_TAGS = (); }; };
+		04F79DF51BC9A03A004E0704 /* EventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F79DF41BC9A039004E0704 /* EventController.swift */; settings = {ASSET_TAGS = (); }; };
+		04F79DF71BC9C893004E0704 /* AmigosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F79DF61BC9C893004E0704 /* AmigosController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		04390C621BC86716005D0BCA /* CycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04390C661BC86716005D0BCA /* CycleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleUITests.swift; sourceTree = "<group>"; };
 		04390C681BC86716005D0BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EBAC3B1BC8DD1C00CBB578 /* PlayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayController.swift; sourceTree = "<group>"; };
+		04F79DF41BC9A039004E0704 /* EventController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventController.swift; sourceTree = "<group>"; };
+		04F79DF61BC9C893004E0704 /* AmigosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmigosController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				04390C461BC86715005D0BCA /* FirstViewController.swift */,
 				04390C481BC86715005D0BCA /* SecondViewController.swift */,
 				04390C4A1BC86715005D0BCA /* Main.storyboard */,
+				04F79DF61BC9C893004E0704 /* AmigosController.swift */,
+				04F79DF41BC9A039004E0704 /* EventController.swift */,
+				04EBAC3B1BC8DD1C00CBB578 /* PlayController.swift */,
 				04390C4D1BC86716005D0BCA /* Assets.xcassets */,
 				04390C4F1BC86716005D0BCA /* LaunchScreen.storyboard */,
 				04390C521BC86716005D0BCA /* Info.plist */,
@@ -262,6 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04390C491BC86715005D0BCA /* SecondViewController.swift in Sources */,
+				04EBAC3C1BC8DD1C00CBB578 /* PlayController.swift in Sources */,
+				04F79DF51BC9A03A004E0704 /* EventController.swift in Sources */,
+				04F79DF71BC9C893004E0704 /* AmigosController.swift in Sources */,
 				04390C451BC86715005D0BCA /* AppDelegate.swift in Sources */,
 				04390C471BC86715005D0BCA /* FirstViewController.swift in Sources */,
 			);
@@ -404,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Cycle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jll.Cycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Cycle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jll.Cycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -488,6 +502,7 @@
 				04390C6D1BC86716005D0BCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04390C6E1BC86716005D0BCA /* Build configuration list for PBXNativeTarget "CycleTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +511,7 @@
 				04390C701BC86716005D0BCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04390C711BC86716005D0BCA /* Build configuration list for PBXNativeTarget "CycleUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +520,7 @@
 				04390C731BC86716005D0BCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
